@@ -1754,27 +1754,12 @@ version = "0.0.1"
 dependencies = [
  "arrayref",
  "borsh",
- "metaplex-auction",
  "metaplex-token-metadata",
  "metaplex-token-vault",
  "num-derive",
  "num-traits",
+ "solana-nft-sagar",
  "solana-program",
- "spl-token",
- "thiserror",
-]
-
-[[package]]
-name = "metaplex-auction"
-version = "0.0.1"
-dependencies = [
- "arrayref",
- "borsh",
- "num-derive",
- "num-traits",
- "solana-program",
- "solana-program-test",
- "solana-sdk",
  "spl-token",
  "thiserror",
 ]
@@ -1788,7 +1773,6 @@ dependencies = [
  "borsh",
  "clap",
  "metaplex",
- "metaplex-auction",
  "metaplex-token-metadata",
  "metaplex-token-vault",
  "serde",
@@ -1797,6 +1781,7 @@ dependencies = [
  "solana-clap-utils",
  "solana-cli-config",
  "solana-client",
+ "solana-nft-sagar",
  "solana-program",
  "solana-sdk",
  "spl-token",
@@ -3301,6 +3286,21 @@ dependencies = [
  "solana-version",
  "tokio",
  "url",
+]
+
+[[package]]
+name = "solana-nft-sagar"
+version = "0.0.1"
+dependencies = [
+ "arrayref",
+ "borsh",
+ "num-derive",
+ "num-traits",
+ "solana-program",
+ "solana-program-test",
+ "solana-sdk",
+ "spl-token",
+ "thiserror",
 ]
 
 [[package]]
